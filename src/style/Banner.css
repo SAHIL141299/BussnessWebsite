@@ -1,0 +1,23 @@
+.banner.app-development {
+    background-image: unset;
+}
+
+.app-development {
+    margin-top: 100px;
+    /* background-image: url(../images/bg-shape1.png); */
+    background-repeat: repeat-x;
+    background-size: contain !important;
+    background-position: top -50px center;
+}
+
+section {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}

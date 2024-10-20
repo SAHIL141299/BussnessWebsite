@@ -1,0 +1,42 @@
+/* .recognitions-section .counter-info {
+    border: transparent;
+    margin: 20px 0 0;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+} */
+/* .counter-info {
+    border: 1px solid #f0eff5;
+    border-radius: 5px;
+    display: flex;
+    margin: 20px 0 54px;
+} */
+.recognitions-section .counter-info .counter-txt {
+    width: calc(33.33% - 30px);
+    border-left: none;
+    padding: 40px;
+    margin: 0 15px 30px;
+    border-radius: 5px;
+    border: 1px solid #f6f6f8;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-filter: drop-shadow(0 0 15px rgba(31, 25, 74, 0.05));
+    filter: drop-shadow(0 0 15px rgba(31, 25, 74, 0.05));
+}
+
+.counter-info .counter-txt {
+    width: 25%;
+    background: #fff;
+    padding: 42px 50px;
+    box-shadow: 0 0 73px 0 rgba(31, 25, 74, 0.08);
+    border-radius: 3px;
+    border-left: 1px solid #f0eff5;
+}
+
+.recognitions-section .inner-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}

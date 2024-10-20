@@ -1,0 +1,34 @@
+.btn {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    border: 0;
+    display: inline-block;
+    line-height: 46px;
+    padding: 0 20px;
+    min-width: 152px;
+    font-weight: 400;
+    transition: all ease 0.4s;
+    font-family: Roboto, sans-serif;
+    position: relative;
+    border-radius: 3px;
+    background: linear-gradient(
+    270deg,
+    #14c4dc,
+    #14c4dc,
+    rgba(34, 34, 34, 0),
+    rgba(34, 34, 34, 0)
+  );
+    background-size: 300% 300%;
+    background-color: #1e326f;
+}
+
+.navbar .navbar-nav .nav-item.btn {
+    line-height: 41px;
+    min-width: 128px;
+    margin-left: 25px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}

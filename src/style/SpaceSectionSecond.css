@@ -1,0 +1,10 @@
+.blog_sec_img {
+    width: 100% !important;
+    height: 110px !important;
+}
+.blog-box .card-img {
+    width: 103px;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 103px;
+}
